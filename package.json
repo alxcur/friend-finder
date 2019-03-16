@@ -1,11 +1,14 @@
 {
-  "name": "snarf",
+  "name": "friend-finder",
   "version": "1.0.0",
   "description": "package",
-  "main": "index.js",
-  "scripts": {
-    "test": "ok"
-  },
+  "main": "server.js",
+ "dependencies": {
+    "express": "^4.16.3"
+ },
+ "scripts": {
+   "start": "node server.js"
+ },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alxcur/friend-finder.git"
