@@ -11,7 +11,7 @@ module.exports = function (app) {
     res.json(friends);
   });
 
-  // updates friends database array and sends back json form of the most compatible new friend
+  // *** Updates an array of friends "database" array and sends back the json form of the most compatible new friend
   app.post('/api/friends', function (req, res) {
     // newFriend is the user that filled out the survey
     var newFriend = req.body;
